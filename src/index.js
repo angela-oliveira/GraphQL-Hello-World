@@ -25,10 +25,10 @@ const typeDefs = gql`
 `;
 
 const users = [
-  { _id: String(Math.random()), name: 'Angela', email: 'angels@gmail', active: true },
-  { _id: String(Math.random()), name: 'Angela2', email: 'angela2@gmail', active: false },
-  { _id: String(Math.random()), name: 'Angela3', email: 'angels3@gmail', active: true },
-  { _id: String(Math.random()), name: 'Angela4', email: 'angels4@gmail', active: false }
+  { _id: String(Math.random()), name: 'Angela', email: 'angela@gmail.com', active: true },
+  { _id: String(Math.random()), name: 'Ana', email: 'ana@gmail.com', active: false },
+  { _id: String(Math.random()), name: 'Maria', email: 'maria@gmail.com', active: true },
+  { _id: String(Math.random()), name: 'João', email: 'joao@gmail.com', active: false }
 ]
 const resolvers = {
   Query: {
